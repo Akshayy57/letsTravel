@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/letsTravel/static/css/main.c06f0a9f.chunk.css",
+    "main.js": "/letsTravel/static/js/main.94d67c3c.chunk.js",
+    "main.js.map": "/letsTravel/static/js/main.94d67c3c.chunk.js.map",
+    "runtime-main.js": "/letsTravel/static/js/runtime-main.112ab2bf.js",
+    "runtime-main.js.map": "/letsTravel/static/js/runtime-main.112ab2bf.js.map",
+    "static/css/2.3f2c4ce9.chunk.css": "/letsTravel/static/css/2.3f2c4ce9.chunk.css",
+    "static/js/2.fb04481a.chunk.js": "/letsTravel/static/js/2.fb04481a.chunk.js",
+    "static/js/2.fb04481a.chunk.js.map": "/letsTravel/static/js/2.fb04481a.chunk.js.map",
+    "index.html": "/letsTravel/index.html",
+    "precache-manifest.877e13a7971a8d4a673397b41714d3a5.js": "/letsTravel/precache-manifest.877e13a7971a8d4a673397b41714d3a5.js",
+    "service-worker.js": "/letsTravel/service-worker.js",
+    "static/css/2.3f2c4ce9.chunk.css.map": "/letsTravel/static/css/2.3f2c4ce9.chunk.css.map",
+    "static/css/main.c06f0a9f.chunk.css.map": "/letsTravel/static/css/main.c06f0a9f.chunk.css.map",
+    "static/js/2.fb04481a.chunk.js.LICENSE.txt": "/letsTravel/static/js/2.fb04481a.chunk.js.LICENSE.txt",
+    "static/media/arrow-left.svg": "/letsTravel/static/media/arrow-left.14bd02da.svg",
+    "static/media/arrow-right.svg": "/letsTravel/static/media/arrow-right.f95a1b0c.svg",
+    "static/media/contact1.png": "/letsTravel/static/media/contact1.5930a183.png",
+    "static/media/desk-bell.svg": "/letsTravel/static/media/desk-bell.7d2fd20e.svg",
+    "static/media/facebook.svg": "/letsTravel/static/media/facebook.c0cd1382.svg",
+    "static/media/App.scss": "/letsTravel/static/media/hero-banner.4ba68518.jpg",
+    "static/media/hotel1.jpg": "/letsTravel/static/media/hotel1.3e1de09c.jpg",
+    "static/media/hotel2.jpg": "/letsTravel/static/media/hotel2.b902d4ee.jpg",
+    "static/media/hotel3.jpg": "/letsTravel/static/media/hotel3.d8c0f184.jpg",
+    "static/media/instagram.svg": "/letsTravel/static/media/instagram.b3b7a021.svg",
+    "static/media/quote-right.svg": "/letsTravel/static/media/quote-right.83ea9310.svg",
+    "static/media/single-bed.svg": "/letsTravel/static/media/single-bed.170786df.svg",
+    "static/media/times.svg": "/letsTravel/static/media/times.46b4ee43.svg",
+    "static/media/towels.svg": "/letsTravel/static/media/towels.9834526a.svg",
+    "static/media/twitter.svg": "/letsTravel/static/media/twitter.6de37c77.svg",
+    "static/media/wifi.svg": "/letsTravel/static/media/wifi.883dbd54.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.112ab2bf.js",
+    "static/css/2.3f2c4ce9.chunk.css",
+    "static/js/2.fb04481a.chunk.js",
+    "static/css/main.c06f0a9f.chunk.css",
+    "static/js/main.94d67c3c.chunk.js"
+  ]
+}
