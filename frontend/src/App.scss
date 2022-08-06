@@ -1,0 +1,111 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+iframe {
+  display: none;
+}
+
+.log-error {
+  color: #fff;
+  background: #f00;
+  padding: 0rem 0.5rem 0.1rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  border-radius: 0px 0 5px 5px;
+}
+
+::-webkit-scrollbar {
+  width: 0.758rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3f83fb;
+  outline: 1px solid #2843d7;
+  border-radius: 35px;
+}
+
+@mixin for-phone-only {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+@mixin for-tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin for-desktop {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+@mixin for-large-desktop {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+.app {
+  .form-control,
+  .form-select {
+    padding: 0.75rem;
+    border: 1px solid #333;
+    border-radius: 0;
+  }
+  button {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .loader-design {
+    margin: 0 auto;
+    .icon-loading {
+      path:nth-child(odd) {
+        fill: #3f51b5;
+      }
+      path:nth-child(even) {
+        fill: #e91e63;
+      }
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+}
+// Importing Css Stylesheet
+
+@import "./pages/Banner/Banner.scss";
+@import "./pages/Card/Card.scss";
+@import "./pages/Footer/Footer.scss";
+@import "./pages/Header/Header.scss";
+@import "./pages/Home/Home.scss";
+@import "./pages/Search/Search.scss";
+@import "./pages/SearchPage/SearchPage.scss";
+@import "./pages/SearchResults/SearchResult.scss";
+
+// hotel Form Checking
+@import "./components/hotel-form-checking/hotel-form-checking.scss";
+
+// Hotel Room
+@import "./components/hotels-room/hotels-room.scss";
+
+@import "./components/login-modal/login-modal.scss";
+
+@media print {
+  .header,
+  .footer,
+  .dwn-invoice {
+    display: none;
+  }
+}

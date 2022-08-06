@@ -1,0 +1,53 @@
+.text-striked {
+  text-decoration: line-through;
+}
+
+.shadow {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.hotel-room-title {
+  margin-block: 3rem;
+  font-weight: 700;
+}
+
+.hotel-card {
+  .hotel-card_images {
+    flex: 2;
+    .carousel-item {
+      img {
+        height: 310px;
+        object-fit: cover;
+      }
+    }
+  }
+  .hotel-card_info {
+    flex: 3;
+  }
+  .hotel-card_info h5 {
+    font-size: 2rem;
+  }
+  .amnities {
+    img {
+      max-height: 25px;
+      margin-right: 1rem;
+    }
+  }
+  .hotel-checklist {
+    list-style-type: none;
+    font-size: 1.2rem;
+  }
+}
+
+.carousel {
+  .carousel-control-prev {
+    background: linear-gradient(to right, #333333bb, #33333300);
+  }
+  .carousel-control-next {
+    background: linear-gradient(to left, #333333bb, #33333300);
+  }
+}
+
+.hotel-card_details .text-muted {
+  font-size: 1.2rem;
+}

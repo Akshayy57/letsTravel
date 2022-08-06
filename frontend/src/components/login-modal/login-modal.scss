@@ -1,0 +1,25 @@
+.header {
+  .modal-content {
+    padding: 2rem;
+    border-radius: 8px;
+
+    .form-login {
+      margin: 2rem 0 0;
+    }
+
+    .login-title {
+      h1 {
+        font-weight: 900;
+      }
+      p {
+        color: #999;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .btn-login {
+    background: transparent;
+    color: #333;
+  }
+}

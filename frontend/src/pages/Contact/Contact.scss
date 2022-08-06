@@ -1,0 +1,123 @@
+.Contact .c-left {
+  width: 36%;
+}
+.Contact .c-right {
+  width: 60%;
+}
+.Contact .c-box {
+  padding: 30px;
+}
+.Contact .details h2 {
+  margin: 20px 0 20px 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.Contact .details p {
+  font-size: 1.3rem;
+}
+.Contact .button {
+  margin-top: 20px;
+}
+.Contact button {
+  margin-right: 20px;
+}
+
+.Contact .c-right {
+  padding: 35px;
+}
+.Contact .input span {
+  font-size: 13px;
+}
+.Contact input {
+  margin-top: 10px;
+}
+.Contact .c-right button {
+  width: 100%;
+  color: #ff014f;
+}
+.Contact .c-right button:hover {
+  color: white;
+}
+.Contact .c-right button i {
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .Contact .d_flex {
+    flex-direction: column;
+  }
+  .Contact .c-left,
+  .Contact .c-right {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+// default
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+.top {
+  margin-top: 80px;
+}
+.heading {
+  margin: 50px 0 50px 0;
+}
+.heading h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+.text-center {
+  text-align: center;
+}
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.c-row,
+.c-left,
+.c-right {
+  width: 50%;
+}
+.box_shodow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+}
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+.f_flex {
+  display: flex;
+}
+.btn_shadow {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+.btn_shadow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.btn_shadow:hover {
+  background: #ff014f;
+  color: white;
+  transform: translateY(-10px);
+}
+textarea,
+input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 3px solid #e2e8ec;
+  margin-bottom: 20px;
+}

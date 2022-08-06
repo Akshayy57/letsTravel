@@ -1,0 +1,157 @@
+.card {
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ece9e6;
+  border: 0;
+}
+.card__header {
+  overflow: hidden;
+  transition: 0.3s ease;
+  &:hover {
+    transform: scale(1.25);
+  }
+}
+
+img {
+  height: 200px;
+  width: 600px;
+}
+
+.card__body {
+  position: relative;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  background: #020409;
+  color: #fff;
+  gap: 0.5rem;
+  height: 150px;
+
+  .card__gradient {
+    height: 29px;
+    background: #05051c;
+    position: absolute;
+    top: -15px;
+    right: 0;
+    left: 0;
+    filter: blur(14px);
+  }
+  h4 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+}
+.tag {
+  align-self: flex-start;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.card__footer {
+  display: flex;
+  padding: 1rem;
+  margin-top: auto;
+}
+.user {
+  display: flex;
+  gap: 0.5rem;
+}
+.user__image {
+  border-radius: 50%;
+}
+.user__info {
+  > small {
+    color: #666;
+  }
+}
+
+.media {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  transition: all 0.3s ease;
+  width: 100%;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/584938/bg_15.png);
+}
+
+figure {
+  height: 370px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.3s ease-in-out;
+
+  a {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+  }
+  &:hover {
+    .media {
+      transform: scale(1.25);
+    }
+  }
+}
+
+figcaption {
+  color: #252830;
+  height: calc(100% - 30px);
+  margin: 15px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+svg {
+  height: inherit;
+  width: 100%;
+  text {
+    text-anchor: middle;
+  }
+  #alpha {
+    fill: white;
+  }
+  .title {
+    font-size: 28px;
+    font-family: "Montserrat";
+    letter-spacing: 5px;
+  }
+  #base {
+    fill: white;
+    -webkit-mask: url(#mask);
+    mask: url(#mask);
+  }
+}
+
+.landing-page-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.body {
+  background-color: white;
+  bottom: 0;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+}
+
+.business-item-info {
+  padding: 3rem 2rem;
+  h3 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+}
+
+.button-popular-book {
+  margin-left: auto;
+}
